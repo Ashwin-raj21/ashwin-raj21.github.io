@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--
+    <head> section: Contains meta info, title, favicon, fonts, CSS links.
+    - Change the <title> for browser tab name.
+    - Update meta tags for SEO.
+    - Add/remove CSS or font links as needed.
+  -->
+  <!-- Google Search Console Verification Placeholder -->
+  <!-- PASTE YOUR GOOGLE SITE VERIFICATION TAG BELOW (e.g., <meta name="google-site-verification" content="..." />) -->
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ashwin Raj | Cloud Administrator Portfolio | Azure, AWS & Databricks Expert</title>
+  <meta
+    content="Ashwin Raj is a Multi-cloud Administrator with 4+ years of experience in Azure, AWS, and Databricks. Expert in infrastructure optimization, automation, and secure cloud environments."
+    name="description">
+  <meta
+    content="Azure, AWS, Databricks, PowerShell, Cloud Admin, Portfolio, Cloud Engineering, Ashwin Raj, Ashwin Cloud Admin"
+    name="keywords">
+
+  <!-- SEO & Social Media Meta Tags (Open Graph / Twitter) -->
+  <link rel="canonical" href="https://ashwin-raj21.github.io/">
+  <meta property="og:title" content="Ashwin Raj | Cloud Administrator Portfolio">
+  <meta property="og:description"
+    content="Explore Ashwin Raj's professional portfolio - specialized in Azure, AWS, and Databricks.">
+  <meta property="og:image"
+    content="https://ashwin-raj21.github.io/assets/img/profile/ashwin-raj-cloud-administrator.jpg">
+  <meta property="og:url" content="https://ashwin-raj21.github.io/">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ashwin Raj | Cloud Administrator Portfolio">
+  <meta name="twitter:description"
+    content="Cloud Administrator specializing in infrastructure, automation, and secure systems.">
+  <meta name="twitter:image"
+    content="https://ashwin-raj21.github.io/assets/img/profile/ashwin-raj-cloud-administrator.jpg">
+
+  <!-- Structured Data (Schema.org) for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ashwin Raj",
+    "jobTitle": "Cloud Administrator",
+    "description": "Cloud Administrator with 4+ years of experience across Azure, AWS, and Databricks. Focused on optimization, automation, and security.",
+    "url": "https://ashwin-raj21.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/ashwin-rj/",
+      "https://github.com/Ashwin-raj21",
+      "https://www.youtube.com/@MinminiToonz"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Tata Consultancy Services"
+    },
+    "knowsAbout": ["Azure", "AWS", "Databricks", "PowerShell", "Cloud Computing", "Infrastructure Management"]
+  }
+  </script>
+
+  <!-- Favicons -->
+  <link href="assets\img\Icons\ashwin-raj-favicon.png" rel="icon">
+  <link href="assets\img\Icons\ashwin-raj-favicon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <!-- ======= Header ======= -->
+  <!--
+    =========================
+    HEADER SECTION
+    =========================
+    Contains profile image, name, social links, and navigation menu.
+    - Fixed on the left for desktop, hidden on mobile until toggled.
+    - Edit navigation links to add/remove sections.
+  -->
+  <header id="header" class="header dark-background d-flex flex-column">
+    <!-- Hamburger menu icon for mobile navigation toggle -->
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <!-- Profile image at the top of sidebar -->
+    <div class="profile-img">
+      <img src="assets\img\profile\ashwin-raj-cloud-administrator.jpg"
+        alt="Ashwin Raj - Cloud Administrator Profile Picture" class="img-fluid rounded-circle">
+    </div>
+
+    <!-- Logo/Name: Click to go to home -->
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h2 class="sitename">Ashwin Raj</h2>
+    </a>
+
+    <!-- Social media links: LinkedIn, GitHub, YouTube, Email -->
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/ashwin-rj/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/Ashwin-raj21" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://www.youtube.com/@MinminiToonz" class="youtube"><i class="bi bi-youtube"></i></a>
+      <a href="mailto:ashwin21.raj@gmail.com" class="email"><i class="bi bi-envelope"></i></a>
+    </div>
+
+    <!-- Navigation menu: Edit links to add/remove sections -->
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <!-- Each <li> is a navigation link to a section below -->
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#experience"><i class="bi bi-briefcase navicon"></i> Experience</a></li>
+        <li><a href="#skills"><i class="bi bi-lightbulb navicon"></i> Skills</a></li>
+        <li><a href="#education"><i class="bi bi-mortarboard navicon"></i> Education</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="#resume-download"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <!-- =============================================================== HERO SECTION (Home) =============================================================== -->
+    <!--
+      - Large background image with your name, animated title, and description.
+      - To change spacing, adjust pt-60/pb-60 classes.
+      - To change background, update <img src="...">
+      - To change animated titles, edit data-typed-items.
+    -->
+    <section id="hero" class="hero section dark-background pt-60 pb-60">
+      <img src="assets\img\Background\ashwin-raj-hero-bg.png" alt="Ashwin Raj Portfolio Hero Background"
+        data-aos="fade-in">
+
+      <!-- Text container: holds name, animated title, and description -->
+      <div class="container text-start" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Line 1: Your name -->
+        <h1 class="fw-bold hero-line line1">Hi, I'm Ashwin Raj</h1>
+
+        <!-- Line 2: Animated typing effect for your roles/titles -->
+        <h3 class="mb-4 hero-line line2">
+          As <span class="typed"
+            data-typed-items="Cloud Administrator, Azure Specialist / AWS Associate, Fast Learner, Databricks Engineer"></span>
+        </h3>
+
+        <!-- Line 3: Short description/mission statement -->
+        <p class="lead mt-3 hero-line line3">
+          I build clouds you can trust — secure, stable, and always optimized for performance. Specialized in
+          Multi-cloud environments for modern businesses.
+        </p>
+      </div>
+    </section>
+
+    <!-- =============================================================== About Me Section =============================================================== -->
+    <!--
+      - Brief intro, profile image, and key personal details.
+      - To add/remove info, edit the <ul> lists.
+      - To change description, edit <p class="about-text">.
+      - To change spacing, adjust pt-10/pb-300.
+    -->
+    <section id="about" class="about section pt-10 pb-300">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p><strong>Multi-cloud Administrator</strong> with <strong>4+ years</strong> of experience across Azure, AWS,
+          and
+          Databricks. Skilled in optimizing infrastructure, improving efficiency, and ensuring secure, reliable systems.
+          Currently focused on advancing into Cloud Engineering with expertise in automation, governance, and cost
+          optimization.</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <!-- Profile Image (left column) -->
+          <div class="col-lg-4 d-flex flex-column align-items-center">
+            <img src="assets\img\profile\ashwin-raj-cloud-administrator.jpg" class="img-fluid rounded-circle"
+              alt="Ashwin Raj - Cloud Professional Portfolio Profile Picture">
+          </div>
+
+          <!-- About Content (right column) -->
+          <div class="col-lg-8 content">
+            <div class="row">
+              <!-- Personal Info: City, Email, LinkedIn -->
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chennai, India</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ashwin21.raj@gmail.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong>
+                    <span>https://www.linkedin.com/in/ashwin-rj/</span>
+                  </li>
+                </ul>
+              </div>
+              <!-- Professional Info: Role, Experience, Goal -->
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Current Role:</strong> <span>Cloud
+                      Administrator</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Experience:</strong> <span>4+ Years</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Current Goal:</strong> <span>Cloud Engineer</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Career goal/summary paragraph -->
+        <p class="about-text">
+          Looking for an opportunity to work in a challenging position combining my skills in Cloud Admin and
+          Engineering, which provides professional development, interesting experiences and personal growth.
+        </p>
+      </div>
+    </section>
+
+    <!-- =============================================================== Experience Section =============================================================== -->
+    <!--
+      - Timeline of your work experience.
+      - Each "exp-card" is a job entry.
+      - To add more jobs, copy/paste a <div class="col-12 col-md-11">...</div> block.
+      - To remove, delete the corresponding block.
+      - To edit, change company name, role, dates, bullets, tools.
+      - Adjust pt-200/pb-60 for spacing.
+    -->
+
+    <section id="experience" class="resume section pt-200 pb-60">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Experience</h2>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <!-- ===== TCS Experience Card ===== -->
+          <div class="col-12 col-md-11">
+            <div class="exp-card d-flex flex-column flex-md-row align-items-start p-3 px-0 mb-4">
+              <!-- Company logo -->
+              <div class="col-auto text-center ps-3 pe-3 mb-3 mb-md-0">
+                <img src="assets\img\NodeList\tcs-logo.png" alt="Tata Consultancy Services Logo" class="exp-logo-img"
+                  style="max-width:64px;">
+              </div>
+
+              <!-- Experience details: company, role, duration, bullets, tools -->
+              <div class="flex-grow-1 pe-4">
+                <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between">
+                  <div>
+                    <h3 class="exp-company mb-1">Tata Consultancy Service</h3>
+                    <span class="exp-role">Cloud Administrator</span>
+                  </div>
+                  <div class="exp-duration text-md-end mt-2 mt-md-0">
+                    <span>June 2022 - Present</span> | <span>Chennai, India</span>
+                  </div>
+                </div>
+
+                <!-- List of responsibilities/achievements -->
+                <ul class="exp-list mt-3 mb-2">
+                  <li>Managed Azure, AWS, and Databricks cloud environments ensuring uptime & compliance</li>
+                  <li>Automated resource checks & reports with PowerShell, cutting manual effort.</li>
+                  <li>Delivered Databricks platform support (clusters, Unity Catalog, notebooks).</li>
+                  <li>Supported ADF pipelines & SQL queries, improving data flow & system performance.</li>
+                  <li>Handled VM migrations, SPN renewals, SSL lifecycle, and App Services for secure infra</li>
+                </ul>
+                <!-- Tools used in this job -->
+                <div class="exp-tools mt-2">
+                  <strong>Tools:</strong> Azure, AWS, Databricks, PowerShell, ADF, SQL, Key Vault, App Services, VM
+                  Migrations, SSL & SPN Management.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===== Sevael Experience Card ===== -->
+          <div class="col-12 col-md-11">
+            <div class="exp-card d-flex flex-column flex-md-row align-items-start p-3 px-0 mb-4">
+              <div class="col-auto text-center ps-3 pe-3 mb-3 mb-md-0">
+                <img src="assets\img\NodeList\sevael-technologies-logo.png" alt="Sevael Logo" class="exp-logo-img"
+                  style="max-width:64px;">
+              </div>
+
+              <div class="flex-grow-1 pe-4">
+                <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between">
+                  <div>
+                    <h3 class="exp-company mb-1">Sevael Technologies</h3>
+                    <span class="exp-role">System Administrator</span>
+                  </div>
+                  <div class="exp-duration text-md-end mt-2 mt-md-0">
+                    <span>MAR 2021 - MAY 2022</span> | <span>Chennai, India</span>
+                  </div>
+                </div>
+
+                <ul class="exp-list mt-3 mb-2">
+                  <li>Monitored system performance & backups to ensure stability</li>
+                  <li>Installed & configured systems, hardware, software, and network devices.</li>
+                  <li>Provided technical support for hardware, software, and cloud issues</li>
+                  <li>Maintained system documentation & proactive maintenance schedules</li>
+                </ul>
+                <div class="exp-tools mt-2">
+                  <strong>Tools:</strong> Active Directory, Windows Server, Networking, System Monitoring, Backup &
+                  Recovery, Hardware & Software Support
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--
+            To add more experience:
+            - Copy one of the above <div class="col-12 col-md-11">...</div> blocks.
+            - Paste below, and update company, role, dates, bullets, tools.
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== Skills Section =============================================================== -->
+    <!--
+      - Technical skills (with icons) and professional skills (as tags).
+      - To add/remove skills, edit the <div class="skills-icon-grid"> and <div class="skills-tags">.
+      - To add more icons, add more <div class="skill-icon-item"> blocks.
+      - To add more tags, add more <span class="skill-tag">...</span>.
+      - Adjust pt-20/pb-300 for spacing.
+    -->
+
+    <section id="skills" class="skills section pt-20 pb-300">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+
+          <!-- Technical Skills Grid (with icons) -->
+          <div class="col-12 col-md-8">
+            <div class="skills-card p-4 mb-4">
+              <div class="skills-title mb-3"><i class="bi bi-cpu"></i> Technical Skills</div>
+              <div class="skills-icon-grid">
+                <!-- Each skill-icon-item is a technical skill with icon and label -->
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\azure-cloud-logo.png" alt="Azure" class="skill-icon-img">
+                  <div class="skill-icon-label">Azure</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\aws-cloud-logo.png" alt="AWS" class="skill-icon-img">
+                  <div class="skill-icon-label">AWS</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\databricks-cloud-logo.png" alt="Databricks" class="skill-icon-img">
+                  <div class="skill-icon-label">Databricks</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\sql-database-logo.png" alt="SQL" class="skill-icon-img">
+                  <div class="skill-icon-label">SQL</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\powershell-automation-logo.png" alt="PowerShell" class="skill-icon-img">
+                  <div class="skill-icon-label">PowerShell</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\azure-data-factory-logo.png" alt="Data Factory" class="skill-icon-img">
+                  <div class="skill-icon-label">Data Factory</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\apptio-cloudability-logo.png" alt="Cloudability" class="skill-icon-img">
+                  <div class="skill-icon-label">Cloudability</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\dynatrace-monitoring-logo.png" alt="Dynatrace" class="skill-icon-img">
+                  <div class="skill-icon-label">Dynatrace</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\azure-virtual-machine-logo.png" alt="Virtual Machine"
+                    class="skill-icon-img">
+                  <div class="skill-icon-label">Virtual Machine</div>
+                </div>
+                <div class="skill-icon-item">
+                  <img src="assets\img\Skills\github-logo.png" alt="Git Hub" class="skill-icon-img">
+                  <div class="skill-icon-label">Git Hub</div>
+                </div>
+                <!-- Add more skill-icon-item blocks for more skills -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional Skills Card (tags) -->
+          <div class="col-12 col-md-8">
+            <div class="skills-card p-4 mb-4">
+              <div class="skills-title mb-2"><i class="bi bi-person-check"></i> Professional Skills</div>
+              <div class="skills-tags">
+                <!-- Each skill-tag is a professional skill -->
+                <span class="skill-tag">Adaptability</span>
+                <span class="skill-tag">Proactive problem-solving</span>
+                <span class="skill-tag">Incident Management</span>
+                <span class="skill-tag">Stakeholder Communication</span>
+                <span class="skill-tag">Cloud Security Awareness</span>
+                <span class="skill-tag">Cross-team Collaboration</span>
+                <span class="skill-tag">Process Improvement</span>
+                <span class="skill-tag">Basic Leadership</span>
+                <span class="skill-tag">Automation & Reporting</span>
+                <span class="skill-tag">Continuous Learning</span>
+                <!-- Add more skill-tag spans for more skills -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================================== Education Section =============================================================== -->
+    <!--
+      - Modern cards for each degree/school.
+      - To add a new education, copy/paste a <div class="col-12 col-md-10">...</div> block.
+      - To remove, delete the block.
+      - To edit, change degree, school, year, etc.
+      - Adjust pt-30/pb-300 for spacing.
+    -->
+
+    <section id="education" class="education section pt-30 pb-300">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Education</h2>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+
+          <!-- Degree Card: College -->
+          <div class="col-12 col-md-10">
+            <a href="https://www.jacsicoe.in/" class="edu-card-link" target="_blank">
+              <div class="edu-card p-4 mb-4 d-flex flex-column flex-md-row align-items-center">
+                <!-- College logo -->
+                <div class="edu-logo-col text-center mb-3 mb-md-0 me-md-4">
+                  <img src="assets\img\NodeList\jacsi-college-logo.png" alt="JACSI Logo" class="edu-logo-img"
+                    style="max-width:70px;">
+                </div>
+                <!-- Degree details -->
+                <div class="flex-grow-1">
+                  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-2">
+                    <div>
+                      <div class="edu-degree">B.E. (Electronics & Communication Engineering)</div>
+                      <div class="edu-college fw-bold">Jayaraj Annapackiam C.S.I College Of Engineering</div>
+                      <div class="edu-university">Anna University</div>
+                    </div>
+                    <div class="edu-location text-md-end mt-2 mt-md-0" style="color:#888;">
+                      <span>Thoothukudi, India</span>
+                    </div>
+                  </div>
+                  <div class="edu-year mb-2">Graduated: 2020</div>
+                  <div class="edu-desc">
+                    <strong>Relevant Coursework:</strong>
+                    <ul class="edu-list mb-1">
+                      <li>Digital Signal Processing</li>
+                      <li>Microprocessors & Microcontrollers</li>
+                      <li>Communication Systems</li>
+                      <li>VLSI Design</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Degree Card: 12th -->
+          <div class="col-12 col-md-10">
+            <a href="https://srikamakshividyalaya.com/" class="edu-card-link" target="_blank">
+              <div class="edu-card p-4 mb-4 d-flex flex-column flex-md-row align-items-center">
+                <div class="edu-logo-col text-center mb-3 mb-md-0 me-md-4">
+                  <img src="assets\img\NodeList\kamakshi-vidyalaya-logo.png" alt="Kamakshi Logo" class="edu-logo-img"
+                    style="max-width:70px;">
+                </div>
+                <div class="flex-grow-1">
+                  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-2">
+                    <div>
+                      <div class="edu-degree">12th Standard</div>
+                      <div class="edu-college fw-bold">Kamakshi Vidyalaya Matric Hr. Sec. School</div>
+                      <div class="edu-board">State Board</div>
+                    </div>
+                    <div class="edu-location text-md-end mt-2 mt-md-0" style="color:#888;">
+                      <span>Thoothukudi, India</span>
+                    </div>
+                  </div>
+                  <div class="edu-year mb-2">Completed: 2016</div>
+                  <div class="edu-desc">
+                    <strong>Award:</strong> Best student of the class (2016)
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Degree Card: 10th -->
+          <div class="col-12 col-md-10">
+            <a href="https://khsse.com/" class="edu-card-link" target="_blank">
+              <div class="edu-card p-4 mb-4 d-flex flex-column flex-md-row align-items-center">
+                <div class="edu-logo-col text-center mb-3 mb-md-0 me-md-4">
+                  <img src="assets\img\NodeList\kamalavathi-school-logo.png" alt="Kamalavathi Logo" class="edu-logo-img"
+                    style="max-width:70px;">
+                </div>
+                <div class="flex-grow-1">
+                  <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-2">
+                    <div>
+                      <div class="edu-degree">10th Standard</div>
+                      <div class="edu-college fw-bold">Kamalavathi Hr. Sec School</div>
+                      <div class="edu-board">CBSE</div>
+                    </div>
+                    <div class="edu-location text-md-end mt-2 mt-md-0" style="color:#888;">
+                      <span>Thoothukudi, India</span>
+                    </div>
+                  </div>
+                  <div class="edu-year mb-2">Completed: 2014</div>
+                  <div class="edu-desc">
+                    <strong>Highlight:</strong> Active in Science Club & School Quiz Team
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!--
+            To add more education:
+            - Copy one of the above <div class="col-12 col-md-10">...</div> blocks.
+            - Paste below, and update degree, school, year, etc.
+          -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- =============================================================== Contact Section =============================================================== -->
+    <!--
+      - Social profiles and email on top row.
+      - Contact form on bottom row.
+      - To add/remove social links, edit <div class="contact-social-row">.
+      - To change email, update all mailto: links.
+      - To change form destination, update form action.
+      - Adjust pt-60/pb-60 for spacing.
+    -->
+
+    <section id="contact" class="contact section pt-60 pb-60">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!-- Top row: Social + Email -->
+        <div class="row g-4 justify-content-center">
+          <!-- Social Profiles Card (left) -->
+          <div class="col-md-6">
+            <div class="contact-card p-4 h-100 d-flex flex-column justify-content-between">
+              <div>
+                <div class="d-flex align-items-center mb-3">
+                  <span class="me-2" style="font-size:1.7rem;color:var(--accent-color);">
+                    <i class="bi bi-share-fill"></i>
+                  </span>
+                  <span class="fs-5 fw-bold" style="color:var(--accent-color);">Social Profiles</span>
+                </div>
+                <div class="contact-social-row mb-2">
+                  <!-- Each contact-social-icon is a social link -->
+                  <a href="https://www.linkedin.com/in/ashwin-rj/" class="contact-social-icon linkedin" target="_blank"
+                    aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/Ashwin-raj21" class="contact-social-icon github" target="_blank"
+                    aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.youtube.com/@MinminiToonz" class="contact-social-icon youtube" target="_blank"
+                    aria-label="YouTube">
+                    <i class="bi bi-youtube"></i>
+                  </a>
+                  <a href="mailto:ashwin21.raj@gmail.com" class="contact-social-icon email" aria-label="Email">
+                    <i class="bi bi-google"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Email Card (right) -->
+          <div class="col-md-6">
+            <div class="contact-card p-4 h-100 d-flex flex-column justify-content-between">
+              <div class="d-flex align-items-center mb-2">
+                <span class="me-2" style="font-size:1.5rem;color:var(--accent-color);">
+                  <i class="bi bi-envelope-fill"></i>
+                </span>
+                <span class="fs-5 fw-bold" style="color:var(--accent-color);">Email</span>
+              </div>
+              <div class="contact-email-link ms-4 mb-2">
+                <a href="mailto:ashwin21.raj@gmail.com" class="contact-link" style="color:#222;">
+                  ashwin21.raj@gmail.com
+                </a>
+              </div>
+              <div class="contact-desc mt-2" style="color:#555;">
+                <span>If you believe my profile and experience align with the role you're looking to fill, please feel
+                  free to reach out via email or use the form below. I’ll be happy to connect further.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom row: Contact Form -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-12">
+            <!-- Contact form: sends data to Formspree, shows status below -->
+            <form class="contact-form p-4" action="https://formspree.io/f/xkgqgdqp" method="POST" autocomplete="off">
+              <div class="mb-3">
+                <label for="contact-name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="contact-name" name="name" placeholder="Enter your name"
+                  required>
+              </div>
+              <div class="mb-3">
+                <label for="contact-email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="contact-email" name="email" placeholder="Enter your email"
+                  required>
+              </div>
+              <div class="mb-3">
+                <label for="contact-message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="contact-message" name="message" rows="4"
+                  placeholder="Write your message..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-accent w-100">Send Message</button>
+              <div id="form-status" class="form-text mt-2"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- =============================================================== Resume Section =============================================================== -->
+    <!--
+		  - Download link for your resume.
+		  - To update, change the href to your PDF.
+		  - Adjust pt-20/pb-200 for spacing.
+		-->
+
+    <section id="resume-download" class="resume section pt-20 pb-200">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <p>Here’s my resume with a snapshot of my career journey:</p>
+
+        <!-- View Resume (opens in new tab) -->
+        <a href="assets/Resume/AshwinRaj_CloudAdministrator.pdf" class="btn btn-primary" target="_blank">
+          View Resume
+        </a>
+
+        <div style="height: 300px;"></div>
+      </div>
+    </section>
+
+    <!--
+    =========================
+    FOOTER SECTION
+    =========================
+    - Copyright.
+    - To edit, change the text inside <p>.
+  -->
+    <footer id="footer" class="footer position-relative light-background" style="padding: 14px 0;">
+      <div class="container text-center">
+        <p>© Copyright <strong class="px-1 sitename">Ashwin Raj</strong> | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!--
+    =========================
+    SCROLL TOP BUTTON
+    =========================
+    - Appears when you scroll down.
+    - Click to scroll to top.
+  -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!--
+    =========================
+    PRELOADER
+    =========================
+    - Shows loading animation before site loads.
+    - Can remove if not needed.
+  -->
+    <div id="preloader"></div>
+
+    <!--
+    =========================
+    JS SCRIPTS
+    =========================
+    - Vendor JS: Bootstrap, AOS, Typed.js, etc.
+    - Main JS: Custom scripts.
+    - Inline script: Handles contact form feedback.
+    - To add more JS, add <script> tags here.
+  -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+      // Simple feedback for Formspree
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector('.contact-form');
+        if (form) {
+          form.addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const status = document.getElementById("form-status");
+            const data = new FormData(form);
+            fetch(form.action, {
+              method: form.method,
+              body: data,
+              headers: { 'Accept': 'application/json' }
+            }).then(response => {
+              if (response.ok) {
+                status.textContent = "Thank you! Your message has been sent.";
+                status.style.color = "green";
+                form.reset();
+              } else {
+                status.textContent = "Oops! There was a problem sending your message.";
+                status.style.color = "red";
+              }
+            }).catch(() => {
+              status.textContent = "Oops! There was a problem sending your message.";
+              status.style.color = "red";
+            });
+          });
+        }
+      });
+    </script>
+
+</body>
+
+</html>
